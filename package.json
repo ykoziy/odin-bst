@@ -1,0 +1,28 @@
+{
+  "name": "odin-bst",
+  "version": "1.0.0",
+  "description": "Binary Search Tree in JS",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testRegex": "tests/.*\\.(js|jsx)$"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykoziy/odin-bst.git"
+  },
+  "author": "Yuriy Koziy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykoziy/odin-bst/issues"
+  },
+  "homepage": "https://github.com/ykoziy/odin-bst#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.4.3",
+    "jest-babel": "^1.0.1"
+  }
+}
