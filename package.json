@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Binary Search Tree in JS",
   "private": true,
-  "main": "index.js",
+  "type": "module",
+  "main": "driver.js",
   "scripts": {
     "test": "jest"
   },
