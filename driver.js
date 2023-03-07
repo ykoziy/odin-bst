@@ -31,12 +31,10 @@ console.log('Printing using inorder: ');
 console.log(tree.inorder());
 console.log('Printing using postorder: ');
 console.log(tree.postorder());
-
 console.log('Unbalancing the tree');
 for (let i = 0; i < 5; i++) {
   tree.insert(Math.floor(Math.random() * 100) + 100);
 }
-
 console.log('Is the tree balanced?');
 console.log(tree.isBalanced());
 console.log('Balancing the tree');
